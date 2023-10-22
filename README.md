@@ -607,3 +607,27 @@ ubah favorite-movie-idb.js
     4. Film dihapus dari daftar film yang disukai. OK
         a. Film berhasil dihapus. OK
         b. Ternyata film tidak ada dalam daftar film yang disukai. OK
+
+## Jagalah Kebersihan
+
+## TODO
+
+    1. Memberi nama yang lebih berbeda untuk createLikeButtonTemplate dan createLikedButtonTemplate. 
+    2. Alur negatif: sistem tidak memproses penyimpanan dan menyebabkan kegagalan jika menyimpan movie tanpa ID. OK
+
+
+
+### TODO:
+
+likeMovie.test
+
+    await TestFactories.createLikeButtonPresenterWithMovie({ id: 1 });
+
+unlikeMovie.test.js
+
+    afterEach(async () => {
+        await FavoriteMovieIdb.deleteMovie(1);
+    });
+
+    1. Memberi nama yang lebih berbeda untuk createLikeButtonTemplate dan createLikedButtonTemplate. OK
+    2. Alur negatif: sistem tidak memproses penyimpanan dan menyebabkan kegagalan jika menyimpan movie tanpa ID. OK
