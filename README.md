@@ -1,4 +1,6 @@
 # Movie-Katalok-Testing
+
+Deploy https://muvieslove.netlify.app/
 Lathihan Membuat Movie Katalog
 
 Mari kita uji coba tahap pertama pada skenario "Menyukai Film", yaitu “Widget untuk menyukai film ditampilkan”. Buat berkas baru bernama likeMovie.test.js pada folder ”tests”.
